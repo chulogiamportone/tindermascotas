@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Tinder de Mascota - Inicio</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- NUESTROS ESTILOS -->
+        <link href="/css/full-slider.css" rel="stylesheet">
+        <link href="/css/style.css" rel="stylesheet">
+
+
+
+
+    </head>
+
+    <body>
+        <style>
+            body {
+                background-image: url("img/fondor.png");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+              
+            }
+        </style>
+
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-dark fixed-top">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-9">
+                        <a class="navbar-brand" href="/">Tinder de Mascota</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="row justify-content-rigth align-items-rigth ">
+                    <div class="col-md-12">
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/registrar" >Registro</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/login">Log In</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Slider de elementos ==== -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <!-- Slide One - Set the background image for this slide in the line below -->
+                                <div class="carousel-item active" style="background-image: url('img/img-1.jpg')">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>El amor va mas alla de las especies</h3>
+                                        <p>Es parte de nuestra familia y por eso se merece lo mejor</p>
+                                    </div>
+                                </div>
+                                <!-- Slide Two - Set the background image for this slide in the line below -->
+                                <div class="carousel-item" style="background-image: url('img/img-2.jpg')">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>Y el amo tambien nace entre los pares</h3>
+                                        <p>Por eso te recomendamos nuestra app</p>
+                                    </div>
+                                </div>
+                                <!-- Slide Three - Set the background image for this slide in the line below -->
+                                <div class="carousel-item" style="background-image: url('img/img-3.jpg')">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>Y que lo que fluya de ese amor</h3>
+                                        <p>¡Agrande nuestras familias!</p>
+                                    </div>
+
+                                    <a s="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slclass="carousel-control-prev" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a claside="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-5">
+            <!-- colmd12 para el 100% o menos para porcentajes sirve para mobile al 100 ==== -->
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-12">
+
+
+                        <div class="contact-heading">
+                            <h2>Contacto</h2> 
+                            <h3>Escribinos tu mensaje</h3>
+
+                            <form action="" method="post" role="form" class="form contactForm">
+                                <div class="col-md-12 ">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                        <div class="validation"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="e-mail" data-rule="email" data-msg="Please enter a valid email" />
+                                        <div class="validation"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                        <div class="validation"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                                        <div class="validation"></div>
+                                    </div>
+                                </div>
+                                <div class="submit">
+                                    <button class="btn btn-default" type="submit">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </section>
+
+
+        <!--  ==== -->
+        <footer class="py-5 bg-dark">
+            <p class="m-0 text-center text-white">FOOTER</p>
+            <a href="tel:600123456">Contacto: 600123456</a>
+            <a href="mailto:someone@yoursite.com">Envianos un correo</a>
+        </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    </body>
+
+</html>
